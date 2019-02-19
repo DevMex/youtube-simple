@@ -1,0 +1,46 @@
+:root{
+    box-sizing: border-box;
+}
+
+*::after, *::before{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+}
+
+.nav-bar{
+    border-bottom: 2px grey solid;
+    padding: 8px 5px; 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+}
+.logo--academy-tube{
+    width: 50px;
+}
+.form--search{
+    display: inline;
+}
+
+.form--search-input {
+    font-size: 20px;
+}
+
+main{
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    margin-top: 76px;
+}
+
+.video-item{
+    display: inline-block;
+    margin: 15px;
+    width: calc(25% - 30px);
+    padding: 1px;
+    box-sizing: border-box;
+}
